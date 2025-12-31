@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, #0B132B, #1C2541);
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+.cta {
+  background: #5BC0BE;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+}
+
+.hero span {
+  color: #5BC0BE;
+}
+
+.hero p {
+  margin-top: 12px;
+  opacity: 0.85;
+}
+
+/* Dashboard */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+/* Cards */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+}
+
+.card ul, .card ol {
+  margin-left: 18px;
+  line-height: 1.6;
+}
+
+.total {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #5BC0BE;
+}
+
+.alert {
+  border: 1px solid #F4A261;
+}
+
+.tag {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.warning {
+  background: #F4A261;
+  color: #000;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+}
+
+.score small {
+  font-size: 0.9rem;
+  color: #5BC0BE;
+}
+
+.muted {
+  opacity: 0.7;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #5BC0BE;
+  color: #5BC0BE;
+  padding: 8px 14px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.6;
+  font-size: 0.85rem;
+}

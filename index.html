@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CRED TRACKER – Prevent Credit Damage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h2>CRED TRACKER</h2>
+    <button class="cta">Connect Account</button>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Prevent Credit Damage<br><span>Before It Happens</span></h1>
+    <p>Track EMIs, detect hidden debts, and stay calm about your credit health.</p>
+  </section>
+
+  <!-- Dashboard -->
+  <section class="dashboard">
+
+    <!-- Due Alert Card -->
+    <div class="card alert">
+      <h3>🔔 Upcoming EMI</h3>
+      <p><strong>HDFC Credit Card</strong></p>
+      <p>Due Tomorrow • ₹4,250</p>
+      <span class="tag warning">High Risk</span>
+    </div>
+
+    <!-- Hidden Debt -->
+    <div class="card">
+      <h3>🧾 Hidden Monthly Drains</h3>
+      <ul>
+        <li>Netflix Subscription – ₹499</li>
+        <li>Spotify – ₹129</li>
+        <li>Amazon Prime – ₹149</li>
+      </ul>
+      <p class="total">Total: ₹777 / month</p>
+    </div>
+
+    <!-- EMI Priority -->
+    <div class="card">
+      <h3>📅 EMI Priority</h3>
+      <ol>
+        <li>HDFC Credit Card – ₹4,250</li>
+        <li>Phone EMI – ₹2,100</li>
+        <li>Education Loan – ₹1,800</li>
+      </ol>
+    </div>
+
+    <!-- Credit Replay -->
+    <div class="card">
+      <h3>📈 Credit Score Replay</h3>
+      <div class="score">
+        <span id="score">742</span>
+        <small>▲ Improved</small>
+      </div>
+      <p class="muted">Missed EMI in Jan → Drop<br>On-time payments → Recovery</p>
+      <button onclick="replay()">Replay Timeline</button>
+    </div>
+
+  </section>
+
+  <footer>
+    Built for stress-free finance 💙
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
